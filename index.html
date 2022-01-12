@@ -1,36 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | 3-column preview card component</title>
+    <title>Frontend Mentor | 3-column preview card component</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sedans">
+        <div class="sedans__logo">
+          <img class="logo" src="images/icon-sedans.svg" alt="Logo sedans" />
+        </div>
+        <div class="title-sedans">
+          <h2 class="sedans__h2 title">Sedans</h2>
+        </div>
+        <div class="sedans-p">
+          <p class="p">
+            Choose a sedan for its affordability and excellent fuel economy.
+            Ideal for cruising in the city or on your next road trip.
+          </p>
+        </div>
+        <div>
+          <button class="buttom sedans__buttom">Learn More</button>
+        </div>
+      </div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Sedans
-  Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-  or on your next road trip.
+      <div class="suvs">
+        <div class="suvs__logo">
+          <img class="logo" src="images/icon-suvs.svg" alt="Logo suvs" />
+        </div>
+        <div class="title-suvs">
+          <h2 class="suvs__h2 title">SUVs</h2>
+        </div>
+        <div class="suvs-p">
+          <p class="p">
+            Take an SUV for its spacious interior, power, and versatility.
+            Perfect for your next family vacation and off-road adventures.
+          </p>
+        </div>
+        <div>
+          <button class="buttom suvs__buttom">Learn More</button>
+        </div>
+      </div>
 
-  SUVs
-  Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-  and off-road adventures.
+      <div class="luxury">
+        <div class="luxury__logo">
+          <img class="logo" src="images/icon-luxury.svg" alt="Logo luxury" />
+        </div>
+        <div class="title-luxury">
+          <h2 class="suvs__h2 title">Luxury</h2>
+        </div>
+        <div class="luxury-p">
+          <p class="p">
+            Cruise in the best car brands without the bloated prices. Enjoy the
+            enhanced comfort of a luxury rental and arrive in style.
+          </p>
+        </div>
+        <div>
+          <button class="buttom luxury__buttom">Learn More</button>
+        </div>
+      </div>
+    </div>
 
-  Luxury
-  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-  rental and arrive in style.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Gastón Recalde</a>.
+    </div>
+  </body>
 </html>
