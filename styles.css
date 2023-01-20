@@ -51,7 +51,7 @@ body{
     padding-bottom: 25px;
 }
 
-.buttom{
+.button{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     padding: 15px;
@@ -61,7 +61,7 @@ body{
     border: 3px solid hsl(0, 0%, 95%);
 }
 
-.sedans__buttom{
+.sedans__button{
     color: hsl(31, 77%, 52%);
 }
 
@@ -74,7 +74,7 @@ body{
     padding-bottom: 40px;
 }
 
-.suvs__buttom{
+.suvs__button{
     color: hsl(184, 100%, 22%);
 }
 
@@ -88,7 +88,7 @@ body{
     border-radius: 0px 0px 8px 8px;
 }
 
-.luxury__buttom{
+.luxury__button{
     color: hsl(179, 100%, 13%);
 }
 
@@ -121,19 +121,19 @@ body{
 }
 
 @media (hover: hover) {
-    .buttom:hover{
+    .button:hover{
         cursor: pointer;
     }
 
-    .sedans__buttom:hover{
+    .sedans__button:hover{
         animation: hoverSedans 0.5s forwards;
     }
 
-    .suvs__buttom:hover{
+    .suvs__button:hover{
         animation: hoverSuvs 0.5s forwards;
     }
 
-    .luxury__buttom:hover{
+    .luxury__button:hover{
         animation: hoverLuxury 0.5s forwards;
     }
 
